@@ -1,5 +1,3 @@
-# AdonisJS API Skeleton
+# Instreets API
 
-> Awesome AdonisJS boilerplate to create APIs using a DDD based architecture
-
-**More info soon...**
+> The API for Instreets app

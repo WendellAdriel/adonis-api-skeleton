@@ -77,7 +77,8 @@ const aliases = {
   Schema: 'Adonis/Src/Schema',
   View: 'Adonis/Src/View',
   Ws: 'Adonis/Addons/Ws',
-  BaseController: 'App/Core/Http/BaseController'
+  BaseController: 'App/Core/Http/BaseController',
+  Translation: 'App/Core/Translation/Translation'
 }
 
 /*
