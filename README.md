@@ -76,3 +76,11 @@ yarn serve:dev
 ```
 yarn serve
 ```
+
+## Things that needs to be done
+
+This boilerplate was made only for an example, so there are some things **(important things)** that still needs to be done like: `tests`, enhance the validation method, etc. Feel free to **fork this repo** and send some **Pull Requests** to help!!!
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/WendellAdriel/adonis-api-skeleton/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
