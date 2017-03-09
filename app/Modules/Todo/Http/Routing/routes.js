@@ -8,7 +8,7 @@ const routes = [
   { url: '/', verbs: ['POST'], action: 'store', middleware: null },
   { url: '/:id', verbs: ['GET'], action: 'show', middleware: null },
   { url: '/:id', verbs: ['PUT'], action: 'update', middleware: null },
-  { url: '/:id', verbs: ['DELETE'], action: 'destroy', middleware: null },
+  { url: '/:id', verbs: ['DELETE'], action: 'destroy', middleware: null }
 ]
 
 module.exports = { isGroup, groupName, groupMiddleware, routes }

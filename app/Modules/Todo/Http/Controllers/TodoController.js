@@ -3,9 +3,9 @@
 const BaseController = use('BaseController')
 const Translation = use('Translation')
 const Todo = use('App/Domains/Todo/Models/Todo')
-const Repository = use('App/Domains/Todo/Repositories/TodoRepository')
-const Validator = use ('App/Domains/Todo/Validators/TodoValidator')
-const Service = use('App/Modules/Todo/Services/TodoService')
+// const Repository = use('App/Domains/Todo/Repositories/TodoRepository')
+const Validator = use('App/Domains/Todo/Validators/TodoValidator')
+// const Service = use('App/Modules/Todo/Services/TodoService')
 
 const moduleName = 'Todo'
 

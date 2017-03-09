@@ -40,4 +40,4 @@ class TodoValidator {
   }
 }
 
-module.exports = new TodoValidator();
+module.exports = new TodoValidator()

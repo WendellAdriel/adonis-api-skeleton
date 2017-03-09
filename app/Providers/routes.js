@@ -19,6 +19,6 @@ const Router = use(Helpers.makeNameSpace('Core/Http', 'router'))
 
 const modules = [
   'Todo'
-];
+]
 
 Router.registerModules(modules)

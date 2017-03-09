@@ -37,7 +37,7 @@ function getTranslation (messages, key, lang, params) {
   return ''
 }
 
-function buildTranslation(message, params) {
+function buildTranslation (message, params) {
   let newMessage = message
 
   params.forEach((param, index, array) => {

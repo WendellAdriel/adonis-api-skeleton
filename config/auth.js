@@ -26,5 +26,5 @@ module.exports = {
     uid: 'email',
     password: 'password',
     secret: Config.get('app.appKey')
-  },
+  }
 }

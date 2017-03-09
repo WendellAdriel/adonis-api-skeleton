@@ -6,7 +6,7 @@ const Route = use('Route')
 
 class Router {
   registerModules (modules) {
-    let moduleRoutes;
+    let moduleRoutes
     modules.forEach(module => {
       moduleRoutes = use(Helpers.makeNameSpace('Modules/Todo/Http/Routing', 'routes'))
 
@@ -42,4 +42,4 @@ function registerRoute (route, module) {
   }
 }
 
-module.exports = new Router();
+module.exports = new Router()

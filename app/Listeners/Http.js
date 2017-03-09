@@ -1,6 +1,5 @@
 'use strict'
 
-const Env = use('Env')
 const Youch = use('youch')
 const Http = exports = module.exports = {}
 
@@ -14,7 +13,6 @@ const Http = exports = module.exports = {}
 Http.handleError = function * (error, request, response) {
   const status = error.status || 500
   const youch = new Youch(error, request.request)
-  const type = request.accepts('json')
   const formatMethod = 'toJSON'
   const formattedErrors = yield youch[formatMethod]()
   response.status(status).send(formattedErrors)

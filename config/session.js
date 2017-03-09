@@ -27,7 +27,6 @@ module.exports = {
   */
   cookie: 'instreets-session',
 
-
   /*
   |--------------------------------------------------------------------------
   | Redis options
@@ -47,7 +46,6 @@ module.exports = {
     password: Env.get('REDIS_PASSWORD'),
     db: Env.get('REDIS_DB')
   },
-
 
   /*
   |--------------------------------------------------------------------------

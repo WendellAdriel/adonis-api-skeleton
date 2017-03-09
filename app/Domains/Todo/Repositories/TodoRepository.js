@@ -4,4 +4,4 @@ class TodoRepository {
 
 }
 
-module.exports = new TodoRepository();
+module.exports = new TodoRepository()
